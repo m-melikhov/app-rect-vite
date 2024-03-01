@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Carousel } from "bootstrap";
+import Image from "./Image.jsx";
 
 export default function MyCarousel() {
   const myCarouselRef = useRef(null);
@@ -23,21 +24,21 @@ export default function MyCarousel() {
       </div>
       <div className="carousel-inner">
         <div className="carousel-item active">
-          <img src="img/foto_1.png" className="d-block w-100" alt="..." />
+          <img src={Image.imagePhotoOne} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="img/foto_2.png" className="d-block w-100" alt="..." />
+          <img src={Image.imagePhotoTwo} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
           </div>
         </div>
         <div className="carousel-item">
-          <img src="img/foto_1.png" className="d-block w-100" alt="..." />
+          <img src={Image.imagePhotoOne} className="d-block w-100" alt="..." />
           <div className="carousel-caption d-none d-md-block">
             <h5>First slide label</h5>
             <p>Some representative placeholder content for the first slide.</p>
