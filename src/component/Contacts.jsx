@@ -70,7 +70,7 @@ export default function Contacts() {
 
           <div className="form-group">
             <label className="form-label">Номер телефону:</label>
-            <input type="tel" name="tel" className="form-control" pattern="[+0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+38-050-000-00-00" />
+            <input type="tel" name="tel" className="form-control" placeholder="+38-050-000-00-00" />
           </div>
 
           <div className="form-group">
