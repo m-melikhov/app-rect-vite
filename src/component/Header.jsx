@@ -10,7 +10,7 @@ export default function Header() {
         <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
       </div>
       <div className="col-md-5">
-        <img className='header-img' src='src/img/2345.jpg' />
+        <img className='header-img' src='src/img/2345.png' />
       </div>
     </div>
   )
